@@ -17,6 +17,6 @@ calculo_3 = numero_real * numero_real * numero_real
 
 #saída
 
-print("o produto do dobro do primeiro com metade do segundo. {}").format(calculo_1)
-print("a soma do triplo do primeiro com o terceiro. {}").format(calculo_2)
-print("o terceiro elevado ao cubo. {}").format(calculo_3)
+print("o produto do dobro do primeiro com metade do segundo. {}".format(calculo_1))
+print("a soma do triplo do primeiro com o terceiro. {}".format(calculo_2))
+print("o terceiro elevado ao cubo. {:.2f}".format(calculo_3))
